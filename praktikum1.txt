@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title> Form HTML </title>
+	</head>
+
+	<body>
+		<h1> Form HTML </h1>
+		<br>
+		<br>
+		Name: <input type= "text" name = "name">
+		<br>
+		<br>
+		Gender: <input type = "radio" name = "gender" value = "man"> Man 
+		<input type = "radio" name = "gender" value = "woman"> Woman
+		<br>
+		<br>
+		Address: <input type = "text" name = "address">
+		<br>
+		<br>
+		Country: 
+		<select name = "country">
+			<option value = "indonesia">Indonesia</option>
+			<option value = "malaysia">Malaysia</option>
+			<option value = "filipina">Filipina</option>
+			<option value = "singapore">Singapore</option>
+			<option value = "australia">Australia</option>
+		</select>
+		<br>
+		<br>
+		Email: <input type = "email" name = "email" required>
+		<br>
+		<br>
+		Photo: <input type = "file" name = "photo" required>
+		<br>
+		<br>
+		Comment: <textarea name = "comment" rows = "7" cols = "50" > </textarea>
+		<input type = "submit" name = "submit" value = "Submit"
+		<br>
+		<br>
+		<br>
+		<br>
+		<center> <font type = Times New Roman black font size = "5"> Form Registrasi </font> </center>
+	</body>
+
+</html>
+	
+	
+	
+	
